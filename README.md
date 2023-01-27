@@ -45,3 +45,35 @@ Steps 8. inside djangoproject/wscubetech there is again directory wscubetech whi
                settings.py
                urls.py
                wsgi.py 
+               
+               
+How to upload project directory on github.
+1. Create Github account then sign-in
+2. Create Repository - **New** then YOUR_REPO_NAME
+3. Select repo privacy a)public b)private
+
+first initialize git
+
+               git init
+               git add .
+               git commit -m "uploading project on github"
+               git config --global user.name "YOUR_NAME"
+               git config --global user.email "YOUR_EMAIL_ID@gmail.com"
+               git config --list
+               git branch -M main
+               git remote add origin https://github.com/     /* copy your repository url
+               git pull -u origin main
+               git push -u origin main
+               
+               after this if you update on github then
+               
+               git pull 
+               git push
+               
+               if you update on working directory project(on your pc)
+               git add .
+               git commit -m "YOUR_MESSAGE_FOR COMMIT"
+               git pull
+               git push
+               
+               
