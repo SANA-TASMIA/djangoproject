@@ -96,6 +96,8 @@ Steps 8. Inside djangoproject/MyExpencesOnIncome there is again directory MyExpe
                
 ***for postgresql connectivity**
 
-            pip install psycopg2               
+            pip install psycopg2  
+
+            *Note : Psycopg2 is a PostgreSQL database driver, it is used to perform operations on PostgreSQL using python, it is designed for multi-threaded applications.              
                
                
