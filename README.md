@@ -50,7 +50,7 @@ Step 4. For Django installation, use below command
        pip freeze
        pip install django
 
-*Create a project :
+***Create a project :**
 
 Step 1. create folder for project
 open CMD :
@@ -62,7 +62,7 @@ open CMD :
 
             e.g.  django-admin startproject MyExpencesOnIncome
 
-***Run the Server:  **          
+***Run the Server:**          
 
 Step 1. Run the server
 
@@ -77,7 +77,7 @@ Step 1. (Optional) To change the port
     open CMD : a) python manage.py runserver 4444
         *Note: Port will be change from 8000 to 4444.
 
-***Create the three folder      **  
+***Create the three folder**  
 
 Step 7. Create three folder inside djangoproject/MyExpencesOnIncome
 i) templates (folder)
