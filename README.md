@@ -5,7 +5,7 @@ MyExpencesOnIncome this is an entity of project. Here we create a dashboard by u
 
 Here I am creating a dashboard which shows the expenses and income. Also connecting with PostgreSQL and charts of python.
 
-*Uploading project on github from git(working dir)
+***Uploading project on github from git(working dir)**
 
 How to upload project directory on github.
 1. Create Github account then sign-in
@@ -37,7 +37,7 @@ first initialize git
                git pull
                git push
 
-*Installation :
+***Installation :**
 
 Step 1. Install python latest version by using https://www.python.org/downloads/ 
 
@@ -62,7 +62,7 @@ open CMD :
 
             e.g.  django-admin startproject MyExpencesOnIncome
 
-*Run the Server:            
+***Run the Server:  **          
 
 Step 1. Run the server
 
@@ -77,7 +77,7 @@ Step 1. (Optional) To change the port
     open CMD : a) python manage.py runserver 4444
         *Note: Port will be change from 8000 to 4444.
 
-*Create the three folder        
+***Create the three folder      **  
 
 Step 7. Create three folder inside djangoproject/MyExpencesOnIncome
 i) templates (folder)
@@ -93,8 +93,8 @@ Steps 8. Inside djangoproject/MyExpencesOnIncome there is again directory MyExpe
                settings.py
                urls.py
                wsgi.py 
-
-Step 9. for postgresql connectivity
+               
+***for postgresql connectivity**
 
             pip install psycopg2               
                
