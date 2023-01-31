@@ -155,7 +155,7 @@ https://sbp.enterprisedb.com/getfile.jsp?fileid=1258228
 
          cd  MyExpencesOnIncome/MyExpencesOnIncome/settings.py
 
-         **Then search for Database section** and make changes as per your database.**
+    **Then search for Database section** and make changes as per your database.**
 
          DATABASES = {
             'default': {
@@ -167,14 +167,14 @@ https://sbp.enterprisedb.com/getfile.jsp?fileid=1258228
               }
          }
 
-         **Important Note: ====> Security ====> But for security purpose we can't keep our database info openly So we create an .evn file outside the application of MyExpencesOnInmcome , that is on projectfile and set all as a variable then that variable we call here as a connection string**
+     **Important Note: ====> Security ====> But for security purpose we can't keep our database info openly So we create an .evn file outside the application of MyExpencesOnInmcome , that is on projectfile and set all as a variable then that variable we call here as a connection string**
 
 
-         So , first of all we need to import a module on settings.py file on the top of the file.
+     So , first of all we need to import a module on settings.py file on the top of the file.
 
-         On settings.py ====> import os ====> this module helps to operating system.
+     On settings.py ====> import os ====> this module helps to operating system.
 
-         ***Note:===> import os ====> The functions OS module provides allows us to operate on underlying Operating System tasks, irrespective of it being a Windows Platform, Macintosh or Linux.**
+     **\*Note:===> import os ====> The functions OS module provides allows us to operate on underlying Operating System tasks, irrespective of it being a Windows Platform, Macintosh or Linux.**
 
          import os    <=== on top of settings.py
 
@@ -188,16 +188,16 @@ https://sbp.enterprisedb.com/getfile.jsp?fileid=1258228
               }
          }
 
-         .evn file ===> we export all variable then that variable_name call on settings.py
+     .evn file ===> we export all variable then that variable_name call on settings.py
 
-          export Variable_name=Value_of_variable
+     export Variable_name=Value_of_variable
 
          export DB_NAME=incomeexpensesdb
          export DB_USER=postgres
          export DB_USER_PASSWORD=********
          export DB_HOST=localhost
 
-         ***Note:====> os.environ.get ====> This module provides a portable way of using operating system dependent functionality. os. environ in Python is a mapping object that represents the user's environmental variables. It returns a dictionary having user's environmental variable as key and their values as value.**
+     **\*Note:====> os.environ.get ====> This module provides a portable way of using operating system dependent functionality. os. environ in Python is a mapping object that represents the user's environmental variables. It returns a dictionary having user's environmental variable as key and their values as value.**
 
 16. **Run the Server** ===>
 
