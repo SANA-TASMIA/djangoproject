@@ -148,7 +148,7 @@ https://sbp.enterprisedb.com/getfile.jsp?fileid=1258228
     owner: **postgres**
     click on it: **save**
 
-15. **Setting Database Section**
+15. **Adding Connectivity setting of Database PostreSQL on project===>settings.py file**
 
     Go to your project **MyExpencesOnIncome** Then click on app **MyExpencesOnIncome**, Inside this application there is a file
     settings.py where all settings we can do easily.
