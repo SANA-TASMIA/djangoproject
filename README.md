@@ -167,7 +167,7 @@ https://sbp.enterprisedb.com/getfile.jsp?fileid=1258228
               }
          }
 
-     **Important Note: ====> Security ====> But for security purpose we can't keep our database info openly So we create an .evn file outside the application of MyExpencesOnInmcome , that is on projectfile and set all as a variable then that variable we call here as a connection string**
+     **Important Note: ====> Security ====> Mapping ===> key: value ===> But for security purpose we can't keep our database info openly So we create an .evn file outside the application of MyExpencesOnInmcome , inside .env file I am mapping the key: value pair.**
 
 
      So , first of all we need to import a module on settings.py file on the top of the file.
@@ -188,9 +188,9 @@ https://sbp.enterprisedb.com/getfile.jsp?fileid=1258228
               }
          }
 
-     .evn file ===> we export all variable then that variable_name call on settings.py
+     .evn file ===> we export all key then that value call on settings.py
 
-     export Variable_name=Value_of_variable
+     export key=value
 
          export DB_NAME=incomeexpensesdb
          export DB_USER=postgres
@@ -205,8 +205,27 @@ https://sbp.enterprisedb.com/getfile.jsp?fileid=1258228
 
     **\*ERROR: Error loading psycopg2 module: No module name 'psycopg2'**
 
-**\*for postgresql connectivity**
+17. **\*for postgresql connectivity**
 
      pip install psycopg2
 
 **\*Note : Psycopg2 is a PostgreSQL database driver, it is used to perform operations on PostgreSQL using python, it is designed for multi-threaded applications.**
+
+18. **Run the Server**
+ 
+     python manage.py runserver
+
+     **\*Note: You will get Error here :==> Error : No password supplied.
+
+19. **Solution for No password supplied or error in picking the password**
+
+     source .evn
+
+     **/*Note: ==> what source do? => In Linux systems, source is a built-in shell command that reads and executes the file content in the current shell.**
+
+20. **Run the Server**
+
+     python manage.py runserver
+
+     Now , go to the url e.g ===>> http://127.0.0.1:8000/
+
