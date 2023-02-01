@@ -215,7 +215,7 @@ https://sbp.enterprisedb.com/getfile.jsp?fileid=1258228
  
           python manage.py runserver
 
-     **\*Note: You will get Error here :==> Error : No password supplied.
+     **\*Note: You will get Error here :==> Error : No password supplied.**
 
 19. **Solution for No password supplied or error in picking the password**
 
